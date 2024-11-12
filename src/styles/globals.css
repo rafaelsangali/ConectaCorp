@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+/* Estilos personalizados para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+  height: 10px; /* Altura da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Cor do fundo do trilho */
+  border-radius: 10px; /* Arredondar o trilho */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1565c0; /* Cor da barra de rolagem */
+  border-radius: 10px; /* Arredondar a barra */
+  border: 2px solid #f0f0f0; /* Adiciona espaço ao redor da barra */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1565c0; /* Cor ao passar o mouse sobre a barra */
+}
